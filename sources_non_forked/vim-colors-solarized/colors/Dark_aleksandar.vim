@@ -89,7 +89,7 @@ hi Type guifg=#e6cfe6 guibg=NONE guisp=NONE gui=NONE ctermfg=254 ctermbg=NONE ct
 hi Cursor guifg=#340134 guibg=#d6eee2 guisp=#d6eee2 gui=NONE ctermfg=53 ctermbg=194 cterm=NONE
 hi Error guifg=NONE guibg=#cdc2b6 guisp=#cdc2b6 gui=NONE ctermfg=NONE ctermbg=187 cterm=NONE
 hi PMenu guifg=#e0d0e0 guibg=#584558 guisp=#584558 gui=NONE ctermfg=254 ctermbg=240 cterm=NONE
-hi SpecialKey guifg=#6c81e6 guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
+hi SpecialKey guifg=#6c81e6 guibg=NONE guisp=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
 hi Constant guifg=#e69c4e guibg=NONE guisp=NONE gui=NONE ctermfg=179 ctermbg=NONE cterm=NONE
 hi Tag guifg=#d8e0d0 guibg=NONE guisp=NONE gui=NONE ctermfg=151 ctermbg=NONE cterm=NONE
 hi String guifg=#e6ae79 guibg=NONE guisp=NONE gui=NONE ctermfg=173 ctermbg=NONE cterm=NONE

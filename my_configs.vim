@@ -41,4 +41,5 @@ set softtabstop=4
 "set _Co=16 
 set clipboard=unnamedplus
 set lsp=12
-
+set encoding=utf-8
+set list listchars=tab:→\ ,trail:·
