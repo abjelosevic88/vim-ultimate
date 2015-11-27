@@ -2,6 +2,7 @@
 if has('gui_running')
     colorscheme onedark
     set guifont=Consolas\ 20
+"    set gfn=Source\ Code\ Pro\ 20
 else
     colorscheme Dark_aleksandar
 endif

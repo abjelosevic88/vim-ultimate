@@ -1,37 +1,18 @@
 # The Ultimate vimrc
 
-Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
+## How to install?
+The version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-There are two versions:
-
-* **Basic**: If you want something small just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
-* **Awesome**: This includes a ton of useful plugins, color schemes and configurations
-
-I would of course recommend using the awesome version.
-
-## How to install the Awesome version?
-The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
-
-	git clone https://github.com/amix/vimrc.git ~/.vim_runtime
+	https://github.com/abjelosevic88/vim-ultimate.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 The taglist.vim plugin will require ctags (http://ctags.sourceforge.net) (Debian: apt-get install ctags)
 
-I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
-
-## How to install the Basic version?
-The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim).
-
-This is useful to install on remote servers where you don't need many plugins and you don't do many edits.
-
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
-	sh ~/.vim_runtime/install_basic_vimrc.sh
-
+I also recommend using Consolas or [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960).
 
 ## How to install on Windows?
 
-Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
-
+Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed.
 
 ## How to update to latest version?
 
@@ -39,25 +20,6 @@ Simply just do a git rebase!
 
     cd ~/.vim_runtime
     git pull --rebase
-
-
-## Some screenshots
-
-Colors when editing a Python file:
-![Screenshot 1](http://files1.wedoist.com/e952fdb343b1e617b90d256e474d0370/as/screenshot_1.png)
-
-Opening recently opened files [mru.vim](https://github.com/vim-scripts/mru.vim):
-![Screenshot 2](http://files1.wedoist.com/1967b0e48af40e513d1a464e08196990/as/screenshot_2.png)
-
-[NERD Tree](https://github.com/scrooloose/nerdtree) plugin in a terminal window:
-![Screenshot 3](http://files1.wedoist.com/b1509d7ed9e9f357e8d04797f9fad67b/as/screenshot3.png)
-
-This vimrc even works on Windows!
-![Screenshot 4](http://files1.wedoist.com/4e85163d97b81422240c822c82022f2f/as/screenshot_4.png)
-
-Distraction free mode using [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2):
-![Screenshot 5](https://d2dq6e731uoz0t.cloudfront.net/a5182977c3d6c2a6cd3f9e97398ca8ca/as/zen_mode.jpg)
-
 
 ## Included Plugins
 
@@ -88,7 +50,8 @@ Remove all clutter and focus only on the essential. Similar to iA Writer or Writ
 
 ## Included color schemes
 
-* [peaksea](https://github.com/vim-scripts/peaksea): My favorite!
+* [onedark]: My Favorite!
+* [peaksea](https://github.com/vim-scripts/peaksea)
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
@@ -119,6 +82,75 @@ You can also install your own plugins, for instance, via pathogen we can install
 	git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
 	
 Now you have vim-rails installed ;-)
+
+## Vim shortcuts
+### dd - Delete line
+### {x}dd - Delete x lines
+### o - Go to line below and enter INSERT mode
+### O - Go to line aboove nad enter INSERT mode
+### w - Go to next word
+### b - Go to previous word
+### A - Go to the end of the line and enter INSERT mode
+### I - Go to the start of the line and enter INSERT mode
+### a - Go to next caracter and enter INSERT mode
+### H - Go to upper part of the file
+### L - Go to end of visible area
+### M - Go to middle part of the screen
+### 0 - Go to the beginning of the line
+### $ - Go to the end onf the line
+### v - VISUAL mode, in this mode you can select text code
+### ctrl + f - Go down 1 screen through the document
+### ctrl + b - Go up 1 screen through the document
+### G - Go to the end of the file
+### gg - Go to the beginning of the file
+### {x}G - Go to x line
+### x - Delete next character
+### {x}x - Delete next x characters
+### X - Delete previous character
+### {x}X - Delete previous x characters
+### dw - Delete next word
+### bw - Delete previous word
+### . - repeat last command
+### d0 - Delete from the beginning of the line to the current cursor position
+### d$ - Delete to the end of the line
+### yy - Copy current line
+### {x}yy - Copy x lines
+### p - Paste to next line
+### P - Paste to previous line
+### := - Outputs total lines of code
+### d - In VISUAL mode to cut text
+### y - In VISUAL mode to copy text
+### m{x} - move current line after x line
+### cw - Change word
+### c0 - Change to the start of the line
+### c$ - Change to the end of the line
+### r - Replace word
+### R - Replace
+### S - replace whole line
+### {x}~ - Change case of the current x letters
+### ctrl + a - Increment number
+### ctrl + x - Decrement number
+### ctrl + g - Get status of curent file and line in the file
+### ctrl + w - In INSERT mode will delete previous word
+### ctrl + u - In INSERT mode will delete to tht beginning of the file
+### ctrl + s - Mark other instances
+### m[x] - Create marker and line, acces marker by typing 'a
+### :r filename - Include the contents of an external file
+### :r !date - Reads the results from the date command into a new line following the cursor.
+### :r !ls -1 - Place after the cursor, the current directory listing displayed as a single column.
+### :5,38 w newfile - Write out a block of text denoted by line numbers
+### :%s/fff/rrrrr/ - For all lines in a file, find string "fff" and replace with string "rrrrr" for the first instance on a line
+### :Ex - File explorer
+### v + a + t - Select everything inside HTML tag
+### ctrl + x + ctrl + l - Line completion
+### ga - Display hex, ascii value of character under cursor
+### g8 - Display hex value of utf-8 character under cursor
+### guu - Lowercase line
+### gUU - Uppercase line
+### CTRL-R=5*5 - Insert 25 into text
+### '. - Go to last modified line
+### <C-O> - Retrace your movements in file (backward)
+### <C-I> - Retrace your movements in file (forward)
 
 
 ## Key Mappings
