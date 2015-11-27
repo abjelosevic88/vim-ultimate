@@ -84,73 +84,73 @@ You can also install your own plugins, for instance, via pathogen we can install
 Now you have vim-rails installed ;-)
 
 ## Vim shortcuts
-### dd - Delete line
-### {x}dd - Delete x lines
-### o - Go to line below and enter INSERT mode
-### O - Go to line aboove nad enter INSERT mode
-### w - Go to next word
-### b - Go to previous word
-### A - Go to the end of the line and enter INSERT mode
-### I - Go to the start of the line and enter INSERT mode
-### a - Go to next caracter and enter INSERT mode
-### H - Go to upper part of the file
-### L - Go to end of visible area
-### M - Go to middle part of the screen
-### 0 - Go to the beginning of the line
-### $ - Go to the end onf the line
-### v - VISUAL mode, in this mode you can select text code
-### ctrl + f - Go down 1 screen through the document
-### ctrl + b - Go up 1 screen through the document
-### G - Go to the end of the file
-### gg - Go to the beginning of the file
-### {x}G - Go to x line
-### x - Delete next character
-### {x}x - Delete next x characters
-### X - Delete previous character
-### {x}X - Delete previous x characters
-### dw - Delete next word
-### bw - Delete previous word
-### . - repeat last command
-### d0 - Delete from the beginning of the line to the current cursor position
-### d$ - Delete to the end of the line
-### yy - Copy current line
-### {x}yy - Copy x lines
-### p - Paste to next line
-### P - Paste to previous line
-### := - Outputs total lines of code
-### d - In VISUAL mode to cut text
-### y - In VISUAL mode to copy text
-### m{x} - move current line after x line
-### cw - Change word
-### c0 - Change to the start of the line
-### c$ - Change to the end of the line
-### r - Replace word
-### R - Replace
-### S - replace whole line
-### {x}~ - Change case of the current x letters
-### ctrl + a - Increment number
-### ctrl + x - Decrement number
-### ctrl + g - Get status of curent file and line in the file
-### ctrl + w - In INSERT mode will delete previous word
-### ctrl + u - In INSERT mode will delete to tht beginning of the file
-### ctrl + s - Mark other instances
-### m[x] - Create marker and line, acces marker by typing 'a
-### :r filename - Include the contents of an external file
-### :r !date - Reads the results from the date command into a new line following the cursor.
-### :r !ls -1 - Place after the cursor, the current directory listing displayed as a single column.
-### :5,38 w newfile - Write out a block of text denoted by line numbers
-### :%s/fff/rrrrr/ - For all lines in a file, find string "fff" and replace with string "rrrrr" for the first instance on a line
-### :Ex - File explorer
-### v + a + t - Select everything inside HTML tag
-### ctrl + x + ctrl + l - Line completion
-### ga - Display hex, ascii value of character under cursor
-### g8 - Display hex value of utf-8 character under cursor
-### guu - Lowercase line
-### gUU - Uppercase line
-### CTRL-R=5*5 - Insert 25 into text
-### '. - Go to last modified line
-### <C-O> - Retrace your movements in file (backward)
-### <C-I> - Retrace your movements in file (forward)
+    dd - Delete line
+    {x}dd - Delete x lines
+    o - Go to line below and enter INSERT mode
+    O - Go to line aboove nad enter INSERT mode
+    w - Go to next word
+    b - Go to previous word
+    A - Go to the end of the line and enter INSERT mode
+    I - Go to the start of the line and enter INSERT mode
+    a - Go to next caracter and enter INSERT mode
+    H - Go to upper part of the file
+    L - Go to end of visible area
+    M - Go to middle part of the screen
+    0 - Go to the beginning of the line
+    $ - Go to the end onf the line
+    v - VISUAL mode, in this mode you can select text code
+    ctrl + f - Go down 1 screen through the document
+    ctrl + b - Go up 1 screen through the document
+    G - Go to the end of the file
+    gg - Go to the beginning of the file
+    {x}G - Go to x line
+    x - Delete next character
+    {x}x - Delete next x characters
+    X - Delete previous character
+    {x}X - Delete previous x characters
+    dw - Delete next word
+    bw - Delete previous word
+    . - repeat last command
+    d0 - Delete from the beginning of the line to the current cursor position
+    d$ - Delete to the end of the line
+    yy - Copy current line
+    {x}yy - Copy x lines
+    p - Paste to next line
+    P - Paste to previous line
+    := - Outputs total lines of code
+    d - In VISUAL mode to cut text
+    y - In VISUAL mode to copy text
+    m{x} - move current line after x line
+    cw - Change word
+    c0 - Change to the start of the line
+    c$ - Change to the end of the line
+    r - Replace word
+    R - Replace
+    S - replace whole line
+    {x}~ - Change case of the current x letters
+    ctrl + a - Increment number
+    ctrl + x - Decrement number
+    ctrl + g - Get status of curent file and line in the file
+    ctrl + w - In INSERT mode will delete previous word
+    ctrl + u - In INSERT mode will delete to tht beginning of the file
+    ctrl + s - Mark other instances
+    m[x] - Create marker and line, acces marker by typing 'a
+    :r filename - Include the contents of an external file
+    :r !date - Reads the results from the date command into a new line following the cursor.
+    :r !ls -1 - Place after the cursor, the current directory listing displayed as a single column.
+    :5,38 w newfile - Write out a block of text denoted by line numbers
+    :%s/fff/rrrrr/ - For all lines in a file, find string "fff" and replace with string "rrrrr" for the first instance on a line
+    :Ex - File explorer
+    v + a + t - Select everything inside HTML tag
+    ctrl + x + ctrl + l - Line completion
+    ga - Display hex, ascii value of character under cursor
+    g8 - Display hex value of utf-8 character under cursor
+    guu - Lowercase line
+    gUU - Uppercase line
+    CTRL-R=5*5 - Insert 25 into text
+    '. - Go to last modified line
+    <C-O> - Retrace your movements in file (backward)
+    <C-I> - Retrace your movements in file (forward)
 
 
 ## Key Mappings
