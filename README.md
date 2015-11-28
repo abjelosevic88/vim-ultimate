@@ -3,8 +3,8 @@
 ## How to install?
 The version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-	https://github.com/abjelosevic88/vim-ultimate.git ~/.vim_runtime
-	sh ~/.vim_runtime/install_awesome_vimrc.sh
+	git clone https://github.com/abjelosevic88/vim-ultimate.git ~/.vim_runtime
+	sh ~/.vim_runtime/install_vimrc.sh
 
 The taglist.vim plugin will require ctags (http://ctags.sourceforge.net) (Debian: apt-get install ctags)
 
@@ -18,8 +18,8 @@ Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the
 
 Simply just do a git rebase!
 
-    cd ~/.vim_runtime
-    git pull --rebase
+	cd ~/.vim_runtime
+	git pull --rebase
 
 ## Included Plugins
 
@@ -84,104 +84,104 @@ You can also install your own plugins, for instance, via pathogen we can install
 Now you have vim-rails installed ;-)
 
 ## Vim shortcuts
-    dd - Delete line
-    {x}dd - Delete x lines
-    o - Go to line below and enter INSERT mode
-    O - Go to line aboove nad enter INSERT mode
-    w - Go to next word
-    b - Go to previous word
-    A - Go to the end of the line and enter INSERT mode
-    I - Go to the start of the line and enter INSERT mode
-    a - Go to next caracter and enter INSERT mode
-    H - Go to upper part of the file
-    L - Go to end of visible area
-    M - Go to middle part of the screen
-    0 - Go to the beginning of the line
-    $ - Go to the end onf the line
-    v - VISUAL mode, in this mode you can select text code
-    ctrl + f - Go down 1 screen through the document
-    ctrl + b - Go up 1 screen through the document
-    G - Go to the end of the file
-    gg - Go to the beginning of the file
-    {x}G - Go to x line
-    x - Delete next character
-    {x}x - Delete next x characters
-    X - Delete previous character
-    {x}X - Delete previous x characters
-    dw - Delete next word
-    bw - Delete previous word
-    . - repeat last command
-    d0 - Delete from the beginning of the line to the current cursor position
-    d$ - Delete to the end of the line
-    yy - Copy current line
-    {x}yy - Copy x lines
-    p - Paste to next line
-    P - Paste to previous line
-    := - Outputs total lines of code
-    d - In VISUAL mode to cut text
-    y - In VISUAL mode to copy text
-    m{x} - move current line after x line
-    cw - Change word
-    c0 - Change to the start of the line
-    c$ - Change to the end of the line
-    r - Replace word
-    R - Replace
-    S - replace whole line
-    {x}~ - Change case of the current x letters
-    ctrl + a - Increment number
-    ctrl + x - Decrement number
-    ctrl + g - Get status of curent file and line in the file
-    ctrl + w - In INSERT mode will delete previous word
-    ctrl + u - In INSERT mode will delete to tht beginning of the file
-    ctrl + s - Mark other instances
-    m[x] - Create marker and line, acces marker by typing 'a
-    :r filename - Include the contents of an external file
-    :r !date - Reads the results from the date command into a new line following the cursor.
-    :r !ls -1 - Place after the cursor, the current directory listing displayed as a single column.
-    :5,38 w newfile - Write out a block of text denoted by line numbers
-    :%s/fff/rrrrr/ - For all lines in a file, find string "fff" and replace with string "rrrrr" for the first instance on a line
-    :Ex - File explorer
-    v + a + t - Select everything inside HTML tag
-    ctrl + x + ctrl + l - Line completion
-    ga - Display hex, ascii value of character under cursor
-    g8 - Display hex value of utf-8 character under cursor
-    guu - Lowercase line
-    gUU - Uppercase line
-    CTRL-R=5*5 - Insert 25 into text
-    '. - Go to last modified line
-    <C-O> - Retrace your movements in file (backward)
-    <C-I> - Retrace your movements in file (forward)
-
+	dd - Delete line
+	{x}dd - Delete x lines
+	o - Go to line below and enter INSERT mode
+	O - Go to line aboove nad enter INSERT mode
+	w - Go to next word
+	b - Go to previous word
+	A - Go to the end of the line and enter INSERT mode
+	I - Go to the start of the line and enter INSERT mode
+	a - Go to next caracter and enter INSERT mode
+	H - Go to upper part of the file
+	L - Go to end of visible area
+	M - Go to middle part of the screen
+	0 - Go to the beginning of the line
+	$ - Go to the end onf the line
+	v - VISUAL mode, in this mode you can select text code
+	ctrl + f - Go down 1 screen through the document
+	ctrl + b - Go up 1 screen through the document
+	G - Go to the end of the file
+	gg - Go to the beginning of the file
+	{x}G - Go to x line
+	x - Delete next character
+	{x}x - Delete next x characters
+	X - Delete previous character
+	{x}X - Delete previous x characters
+	dw - Delete next word
+	bw - Delete previous word
+	. - repeat last command
+	d0 - Delete from the beginning of the line to the current cursor position
+	d$ - Delete to the end of the line
+	yy - Copy current line
+	{x}yy - Copy x lines
+	p - Paste to next line
+	P - Paste to previous line
+	:= - Outputs total lines of code
+	d - In VISUAL mode to cut text
+	y - In VISUAL mode to copy text
+	m{x} - move current line after x line
+	cw - Change word
+	c0 - Change to the start of the line
+	c$ - Change to the end of the line
+	r - Replace word
+	R - Replace
+	S - replace whole line
+	{x}~ - Change case of the current x letters
+	ctrl + a - Increment number
+	ctrl + x - Decrement number
+	ctrl + g - Get status of curent file and line in the file
+	ctrl + w - In INSERT mode will delete previous word
+	ctrl + u - In INSERT mode will delete to tht beginning of the file
+	ctrl + s - Mark other instances
+	m[x] - Create marker and line, acces marker by typing 'a
+	:r filename - Include the contents of an external file
+	:r !date - Reads the results from the date command into a new line following the cursor.
+	:r !ls -1 - Place after the cursor, the current directory listing displayed as a single column.
+	:5,38 w newfile - Write out a block of text denoted by line numbers
+	:%s/fff/rrrrr/ - For all lines in a file, find string "fff" and replace with string "rrrrr" for the first instance on a line
+	:Ex - File explorer
+	v + a + t - Select everything inside HTML tag
+	ctrl + x + ctrl + l - Line completion
+	ga - Display hex, ascii value of character under cursor
+	g8 - Display hex value of utf-8 character under cursor
+	guu - Lowercase line
+	gUU - Uppercase line
+	CTRL-R=5*5 - Insert 25 into text
+	'. - Go to last modified line
+	<C-O> - Retrace your movements in file (backward)
+	<C-I> - Retrace your movements in file (forward)
+	alt + [j/k] - Move current line up/down
 
 ## Key Mappings
 
 ### Plugin related mappings
 
 Open [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) and see and manage the current buffers:
-    
-    map <leader>o :BufExplorer<cr>
+
+	map <leader>o :BufExplorer<cr>
 
 Open [MRU.vim](https://github.com/vim-scripts/mru.vim) and see the recently open files:
 
-    map <leader>f :MRU<CR>
+	map <leader>f :MRU<CR>
 
 Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin:
-    
-    let g:ctrlp_map = '<c-f>'
+	
+	let g:ctrlp_map = '<c-f>'
 
 Open [PeepOpen](https://peepcode.com/products/peepopen) plugin:
 
-    map <leader>j :PeepOpen<cr>
+	map <leader>j :PeepOpen<cr>
 
 Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
 
-    map <leader>nn :NERDTreeToggle<cr>
-    map <leader>nb :NERDTreeFromBookmark 
-    map <leader>nf :NERDTreeFind<cr>
+	map <leader>nn :NERDTreeToggle<cr>
+	map <leader>nb :NERDTreeFromBookmark 
+	map <leader>nf :NERDTreeFind<cr>
 
 [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2) lets you only focus on one thing at a time. It removes all the distractions and centers the content. It has a special look when editing Markdown, reStructuredText and textfiles. It only has one mapping.
 
-    map <leader>z :Goyo<cr>
+	map <leader>z :Goyo<cr>
 
 ### Normal mode mappings
 
@@ -259,17 +259,17 @@ Toggle paste mode on and off:
 
 Quickly insert parenthesis/brackets/etc.:
 
-    inoremap $1 ()<esc>i
-    inoremap $2 []<esc>i
-    inoremap $3 {}<esc>i
-    inoremap $4 {<esc>o}<esc>O
-    inoremap $q ''<esc>i
-    inoremap $e ""<esc>i
-    inoremap $t <><esc>i
+	inoremap $1 ()<esc>i
+	inoremap $2 []<esc>i
+	inoremap $3 {}<esc>i
+	inoremap $4 {<esc>o}<esc>O
+	inoremap $q ''<esc>i
+	inoremap $e ""<esc>i
+	inoremap $t <><esc>i
 
 Insert the current date and time (useful for timestamps):
 
-    iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+	iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 
 
 ### Visual mode mappings
@@ -289,45 +289,45 @@ When you press `<leader>r` you can search and replace the selected text:
 
 Surround the visual selection in parenthesis/brackets/etc.:
 
-    vnoremap $1 <esc>`>a)<esc>`<i(<esc>
-    vnoremap $2 <esc>`>a]<esc>`<i[<esc>
-    vnoremap $3 <esc>`>a}<esc>`<i{<esc>
-    vnoremap $$ <esc>`>a"<esc>`<i"<esc>
-    vnoremap $q <esc>`>a'<esc>`<i'<esc>
-    vnoremap $e <esc>`>a"<esc>`<i"<esc>
+	vnoremap $1 <esc>`>a)<esc>`<i(<esc>
+	vnoremap $2 <esc>`>a]<esc>`<i[<esc>
+	vnoremap $3 <esc>`>a}<esc>`<i{<esc>
+	vnoremap $$ <esc>`>a"<esc>`<i"<esc>
+	vnoremap $q <esc>`>a'<esc>`<i'<esc>
+	vnoremap $e <esc>`>a"<esc>`<i"<esc>
 	
 
 ### Command line mappings
 
 $q is super useful when browsing on the command line. It deletes everything until the last slash:
 
-    cno $q <C-\>eDeleteTillSlash()<cr>
+	cno $q <C-\>eDeleteTillSlash()<cr>
 
 Bash like keys for the command line:
 
-    cnoremap <C-A>		<Home>
-    cnoremap <C-E>		<End>
-    cnoremap <C-K>		<C-U>
+	cnoremap <C-A>		<Home>
+	cnoremap <C-E>		<End>
+	cnoremap <C-K>		<C-U>
 
-    cnoremap <C-P> <Up>
-    cnoremap <C-N> <Down>
+	cnoremap <C-P> <Up>
+	cnoremap <C-N> <Down>
 
 Write the file as sudo (only on Unix). Super useful when you open a file and you don't have permissions to save your changes. [Vim tip](http://vim.wikia.com/wiki/Su-write):
 
-    :W 
+	:W 
 
 
 ### Spell checking
 Pressing `<leader>ss` will toggle and untoggle spell checking
 
-    map <leader>ss :setlocal spell!<cr>
+	map <leader>ss :setlocal spell!<cr>
 
 Shortcuts using `<leader>` instead of special chars
 
-    map <leader>sn ]s
-    map <leader>sp [s
-    map <leader>sa zg
-    map <leader>s? z=
+	map <leader>sn ]s
+	map <leader>sp [s
+	map <leader>sa zg
+	map <leader>s? z=
 
 ### Cope	
 Do :help cope if you are unsure what cope is. It's super useful!
@@ -343,10 +343,10 @@ To go to the previous search results do:
 
 Vimscript mappings:
 
-    map <leader>cc :botright cope<cr>
-    map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
-    map <leader>n :cn<cr>
-    map <leader>p :cp<cr>
+	map <leader>cc :botright cope<cr>
+	map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
+	map <leader>n :cn<cr>
+	map <leader>p :cp<cr>
 
 ## Useful blog tips regarding my Vim setup
 
