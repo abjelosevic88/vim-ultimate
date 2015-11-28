@@ -1,8 +1,12 @@
 
 if has('gui_running')
-    colorscheme onedark
-    set guifont=Consolas\ 20
-"    set gfn=Source\ Code\ Pro\ 20
+	if has("unix")
+		set guifont=Consolas\ 20
+		colorscheme onedark
+	elseif has("win32")
+		set guifont=Consolas:h14
+		colorscheme peaksea-aleksandar
+	endif
 else
     colorscheme Dark_aleksandar
 endif
