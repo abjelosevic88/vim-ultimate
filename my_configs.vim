@@ -22,6 +22,8 @@ map <c-Up> :set wrap<CR>
 map <c-Down> :set nowrap<CR>
 map <F3> <Esc>:set guifont=Consolas:h14<CR>
 map <Leader>a @:<CR>
+map <C-L> 20zl
+map <C-H> 20zh
 
 let NERDTreeDirArrows = 0
 let g:ctrlp_match_window = 'min:4,max:72'
